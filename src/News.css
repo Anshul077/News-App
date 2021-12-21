@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 0 0 2px 0px rgb(0 0 0 / 70%);
+  font-family: 'Libre Baskerville', serif;
+  top: 0;
+  position: sticky;
+  z-index: 20;
+  box-shadow: 0 0 5px rgb(192, 192, 192);
+}
+
+nav ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+li{
+  position: relative;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+li img{
+  height: 10vh;
+  margin: 10px 0;
+}
+
+.cont {
+  width: 85vw;
+  height: 230vh;
+  margin: 100px auto 20px auto;
+  box-shadow: 0 0 5px rgb(192, 192, 192);
+  font-family: 'Merriweather', serif;
+}
+
+.sec-cont {
+  position: absolute;
+  width: 80vw;
+  height: 210vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-gap: 3vw;
+  margin-top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2{
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+  height: 27rem;
+  border-radius: 10px;
+  margin: 10px 35px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgb(182, 181, 181);
+  font-family: 'Raleway', sans-serif;
+}
+
+.card img {
+  height: 10rem;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  background-color: orange;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mode{
+  height: 6vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin: 10px 30px;
+}
+
+
